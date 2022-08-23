@@ -14,7 +14,6 @@ function Header() {
             }
         }
         window.addEventListener('scroll', handleSCroll)
-
         return () => {
             window.removeEventListener('scroll', handleSCroll)
         }
